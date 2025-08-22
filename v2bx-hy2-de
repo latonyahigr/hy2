@@ -5,6 +5,28 @@
     },
     "Cores": [
     {
+        "Type": "xray",
+        "Log": {
+            "Level": "error",
+            "ErrorPath": "/etc/V2bX/error.log"
+        },
+        "OutboundConfigPath": "/etc/V2bX/custom_outbound.json",
+        "RouteConfigPath": "/etc/V2bX/route.json"
+    },
+    {
+        "Type": "sing",
+        "Log": {
+            "Level": "error",
+            "Timestamp": true
+        },
+        "NTP": {
+            "Enable": false,
+            "Server": "time.apple.com",
+            "ServerPort": 0
+        },
+        "OriginalPath": "/etc/V2bX/sing_origin.json"
+    },
+    {
         "Type": "hysteria2",
         "Log": {
             "Level": "error"
@@ -14,7 +36,7 @@
             "Core": "hysteria2",
             "ApiHost": "https://dttx.938410.xyz",
             "ApiKey": "c9372a7e0a44f8b6790137c645ce",
-            "NodeID": 28,
+            "NodeID": 14,
             "NodeType": "hysteria2",
             "Hysteria2ConfigPath": "/etc/V2bX/hy2config.yaml",
             "Timeout": 30,
@@ -24,7 +46,7 @@
             "CertConfig": {
                 "CertMode": "http",
                 "RejectUnknownSni": false,
-                "CertDomain": "dt89ls.895324.xyz",
+                "CertDomain": "dt325s.546531.xyz",
                 "CertFile": "/etc/V2bX/fullchain.cer",
                 "KeyFile": "/etc/V2bX/cert.key",
                 "Email": "v2bx@github.com",
@@ -37,7 +59,7 @@
             "Core": "hysteria2",
             "ApiHost": "https://lztx.848971.xyz",
             "ApiKey": "8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u",
-            "NodeID": 28,
+            "NodeID": 14,
             "NodeType": "hysteria2",
             "Hysteria2ConfigPath": "/etc/V2bX/hy2config.yaml",
             "Timeout": 30,
@@ -47,7 +69,7 @@
             "CertConfig": {
                 "CertMode": "http",
                 "RejectUnknownSni": false,
-                "CertDomain": "lz8yd1.895324.xyz",
+                "CertDomain": "lzz76y.546531.xyz",
                 "CertFile": "/etc/V2bX/fullchain.cer",
                 "KeyFile": "/etc/V2bX/cert.key",
                 "Email": "v2bx@github.com",
@@ -60,7 +82,7 @@
             "Core": "hysteria2",
             "ApiHost": "https://mqtx.992178.xyz",
             "ApiKey": "IICIjANBgkqhkiG9w0BAQEFAAOCA",
-            "NodeID": 28,
+            "NodeID": 14,
             "NodeType": "hysteria2",
             "Hysteria2ConfigPath": "/etc/V2bX/hy2config.yaml",
             "Timeout": 30,
@@ -70,7 +92,7 @@
             "CertConfig": {
                 "CertMode": "http",
                 "RejectUnknownSni": false,
-                "CertDomain": "mq72yd.895324.xyz",
+                "CertDomain": "mq8349s.546531.xyz",
                 "CertFile": "/etc/V2bX/fullchain.cer",
                 "KeyFile": "/etc/V2bX/cert.key",
                 "Email": "v2bx@github.com",
@@ -83,7 +105,7 @@
             "Core": "hysteria2",
             "ApiHost": "https://qytx.215874.xyz",
             "ApiKey": "4f42e9b78554d3d5a2NTR88YTSh",
-            "NodeID": 28,
+            "NodeID": 13,
             "NodeType": "hysteria2",
             "Hysteria2ConfigPath": "/etc/V2bX/hy2config.yaml",
             "Timeout": 30,
@@ -93,7 +115,7 @@
             "CertConfig": {
                 "CertMode": "http",
                 "RejectUnknownSni": false,
-                "CertDomain": "qyb8y2.895324.xyz",
+                "CertDomain": "qyy32n.546531.xyz",
                 "CertFile": "/etc/V2bX/fullchain.cer",
                 "KeyFile": "/etc/V2bX/cert.key",
                 "Email": "v2bx@github.com",
@@ -106,7 +128,7 @@
             "Core": "hysteria2",
             "ApiHost": "https://lbtx.48952123.xyz",
             "ApiKey": "wierioqwjshalwouqaksjdkwo",
-            "NodeID": 28,
+            "NodeID": 14,
             "NodeType": "hysteria2",
             "Hysteria2ConfigPath": "/etc/V2bX/hy2config.yaml",
             "Timeout": 30,
@@ -116,7 +138,80 @@
             "CertConfig": {
                 "CertMode": "http",
                 "RejectUnknownSni": false,
-                "CertDomain": "lb99yd.895324.xyz",
+                "CertDomain": "Lb83sy.546531.xyz",
+                "CertFile": "/etc/V2bX/fullchain.cer",
+                "KeyFile": "/etc/V2bX/cert.key",
+                "Email": "v2bx@github.com",
+                "Provider": "cloudflare",
+                "DNSEnv": {
+                    "EnvName": "env1"
+                }
+            }
+        },{
+            "Core": "sing",
+            "ApiHost": "https://xqtx.okjnd.com",
+            "ApiKey": "ajdfakwfhlawjda1",
+            "NodeID": 4,
+            "NodeType": "tuic",
+            "Timeout": 30,
+            "ListenIP": "::",
+            "SendIP": "0.0.0.0",
+            "DeviceOnlineMinTraffic": 200,
+            "TCPFastOpen": false,
+            "SniffEnabled": true,
+            "CertConfig": {
+                "CertMode": "http",
+                "RejectUnknownSni": false,
+                "CertDomain": "zhaji-deguo.xiaoqi999.space",
+                "CertFile": "/etc/V2bX/fullchain.cer",
+                "KeyFile": "/etc/V2bX/cert.key",
+                "Email": "v2bx@github.com",
+                "Provider": "cloudflare",
+                "DNSEnv": {
+                    "EnvName": "env1"
+                }
+            }
+        },{
+            "Core": "sing",
+            "ApiHost": "https://qytx.215874.xyz",
+            "ApiKey": "4f42e9b78554d3d5a2NTR88YTSh",
+            "NodeID": 7,
+            "NodeType": "vless",
+            "Timeout": 30,
+            "ListenIP": "::",
+            "SendIP": "0.0.0.0",
+            "DeviceOnlineMinTraffic": 200,
+            "TCPFastOpen": true,
+            "SniffEnabled": true,
+            "CertConfig": {
+                "CertMode": "none",
+                "RejectUnknownSni": false,
+                "CertDomain": "zhaji-deguo.okk28.net",
+                "CertFile": "/etc/V2bX/fullchain.cer",
+                "KeyFile": "/etc/V2bX/cert.key",
+                "Email": "v2bx@github.com",
+                "Provider": "cloudflare",
+                "DNSEnv": {
+                    "EnvName": "env1"
+                }
+            }
+        },{
+            "Core": "sing",
+            "ApiHost": "https://qytx.215874.xyz",
+            "ApiKey": "4f42e9b78554d3d5a2NTR88YTSh",
+            "NodeID": 65,
+            "NodeType": "vmess",
+            "Timeout": 30,
+            "ListenIP": "::",
+            "SendIP": "0.0.0.0",
+            "DeviceOnlineMinTraffic": 200,
+            "MinReportTraffic": 0,
+            "TCPFastOpen": true,
+            "SniffEnabled": true,
+            "CertConfig": {
+                "CertMode": "none",
+                "RejectUnknownSni": false,
+                "CertDomain": "example.com",
                 "CertFile": "/etc/V2bX/fullchain.cer",
                 "KeyFile": "/etc/V2bX/cert.key",
                 "Email": "v2bx@github.com",
