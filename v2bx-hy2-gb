@@ -138,29 +138,5 @@
                     "EnvName": "env1"
                 }
             }
-        },{
-            "Core": "sing",
-            "ApiHost": "https://qytx.215874.xyz",
-            "ApiKey": "4f42e9b78554d3d5a2NTR88YTSh",
-            "NodeID": 3,
-            "NodeType": "vless",
-            "Timeout": 30,
-            "ListenIP": "::",
-            "SendIP": "0.0.0.0",
-            "DeviceOnlineMinTraffic": 200,
-            "TCPFastOpen": true,
-            "SniffEnabled": true,
-            "CertConfig": {
-                "CertMode": "none",
-                "RejectUnknownSni": false,
-                "CertDomain": "zhaji-uk.okk28.net",
-                "CertFile": "/etc/V2bX/fullchain.cer",
-                "KeyFile": "/etc/V2bX/cert.key",
-                "Email": "v2bx@github.com",
-                "Provider": "cloudflare",
-                "DNSEnv": {
-                    "EnvName": "env1"
-                }
-            }
-        },]
+        }]
 }
