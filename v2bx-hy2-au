@@ -1,3 +1,28 @@
+{
+    "Log": {
+        "Level": "error",
+        "Output": ""
+    },
+    "Cores": [
+    {
+        "Type": "sing",
+        "Log": {
+            "Level": "error",
+            "Timestamp": true
+        },
+        "NTP": {
+            "Enable": false,
+            "Server": "time.apple.com",
+            "ServerPort": 0
+        },
+        "OriginalPath": "/etc/V2bX/sing_origin.json"
+    },
+    {
+        "Type": "hysteria2",
+        "Log": {
+            "Level": "error"
+        }
+    }],
     "Nodes": [{
             "Core": "hysteria2",
             "ApiHost": "https://dttx.938410.xyz",
@@ -114,3 +139,4 @@
                 }
             }
         }]
+}
